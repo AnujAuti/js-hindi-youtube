@@ -10,6 +10,23 @@ const A={ 1:"a",2:"b"}
 const B ={ 3:"c", 4:"d"}
 const z = {A , B}
 const p =Object.assign({}, A,B)
-console.log(p);
+//console.log(p);
 const q = {...A,...B}
-console.log(z);
+//console.log(z);
+const course = {
+    coursename: " coding "
+    , fees :500 ,
+    age : 20 
+}
+//console.log(course.coursename);
+const {fees : k} = course
+console.log(k);
+/*
+{name:"anuj" ,
+ age:18 
+
+}
+[ 
+    {}
+    ,{}
+]   */
